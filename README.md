@@ -1,68 +1,75 @@
-# 🎓 Student Performance Predictor (ML)
+# Student Performance Prediction and Analysis using Machine Learning
 
-## 🚀 Live Demo  
-👉 https://g9fdkip3z7nqbj8yvnsews.streamlit.app/
+# Live Demo(App link)
+ https://g9fdkip3z7nqbj8yvnsews.streamlit.app/
 
----
+# Overview
 
-## 📌 Overview
+This project is a machine learning-based system designed to analyze and predict student academic performance using academic and lifestyle-related factors.
 
-I built a machine learning system that predicts whether a student is likely to achieve their target academic performance based on key lifestyle and academic factors.
-The goal is to focus on controllable habits such as study time, sleep, attendance, and stress, and understand how they influence outcomes.
+The system evaluates inputs such as study hours, sleep duration, attendance, stress levels, and other relevant variables to estimate expected academic performance. It also compares the predicted performance with a user-defined target score and provides analytical feedback based on the results.
 
+The primary goal of this project is to explore how machine learning can be applied in education to better understand the relationship between student habits and academic outcomes.
 
-## 🧠 Key Idea
+# Key Idea
 
-The system learns patterns from student data and applies them to new inputs to:
+The model learns patterns from historical student data and applies those learned relationships to new user inputs in order to:
+Predict expected academic performance
+Compare predicted performance with a target score
+Identify performance gaps
+Provide improvement-oriented feedback
+Visualize feature contributions affecting the prediction
 
-- Estimate expected performance  
-- Compare it with a target score  
-- Identify gaps and suggest improvements  
+# How the System Works
+A structured student performance dataset is used for training
+Academic and lifestyle-related features are preprocessed
+A supervised machine learning model is trained on the dataset
+The trained model is integrated into a Streamlit web application
+Users enter their information and receive real-time predictions and analysis
 
+# Features
+ Target-based academic performance analysis
+ Real-time machine learning prediction
+ Performance gap analysis (target vs predicted score)
+ Improvement-oriented recommendations
+ Feature contribution visualization
+ Interactive Streamlit web application
+ Machine Learning Approach
 
+This project uses a supervised machine learning approach to identify relationships between student habits and academic performance.
 
-## ⚙️ How It Works
+Areas involved:
+Supervised Learning
+Regression-based prediction
+Data preprocessing
+Feature contribution analysis
+Model-driven prediction systems
 
-1. A dataset of student behavior and performance is used for training  
-2. A supervised learning model is trained on this data  
-3. The trained model is saved and integrated into a Streamlit app  
-4. Users input their habits → the model predicts performance in real time  
+# Tech Stack
+Python
+Streamlit
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
 
+# Purpose of the Project
 
+This project was developed to explore practical applications of machine learning in the education domain.
+Rather than focusing only on prediction, the system aims to make model outputs more understandable by combining performance estimation with analytical feedback and feature-based interpretation.
 
-## 📊 Features
+# Future Improvements
+Add advanced machine learning models such as Random Forest and XGBoost
+Improve feature engineering and dataset quality
+Expand visualization and analytical capabilities
+Enhance UI/UX design for better interaction
+Add personalized dashboards and tracking systems
+Support larger and more diverse datasets
 
-- 🎯 Target-based performance analysis  
-- 📈 Real-time ML prediction  
-- ⚠️ Gap identification (target vs predicted)  
-- 🧠 Personalized improvement suggestions  
-- 🌐 Interactive web application  
-   Feature contribution graph
+# What I Learned
+Through this project, I gained practical experience in applying machine learning concepts to a real-world problem.
+I explored how machine learning models learn patterns from structured data, how predictions can be interpreted using feature analysis, and how analytical systems can be made more interactive and understandable for users.
+This project also helped me strengthen my understanding of data preprocessing, model integration, and building user-facing ML applications using Streamlit.
 
-
-## ⚙️ Machine Learning Approach
-
-- Supervised Learning  
-- Model trained on structured student dataset  
-- Learns relationships between lifestyle factors and performance  
-
-
-
-## 🛠️ Tech Stack
-Python, Streamlit, Pandas, NumPy, Scikit-learn
-
-## 🎯 Purpose
-This project demonstrates how machine learning can be applied in education to help students understand how daily habits impact academic outcomes.
-
-## 🚀 Future Improvements
-- Add advanced models (Random Forest, XGBoost)  
-- Improve feature engineering  
-- Enhance UI/UX  
-- Add user dashboards  
-
-## 💡 What I Learned
-While building this project, I was able to apply my knowledge in Machine Learning practically and explored how machine learning models learn patterns from data and how those patterns can be translated into meaningful real-world insights.
-I also focused on making the system interactive and understandable, rather than just building a static model.
-
-## 👨‍💻 Author
+# Author
 Dhruva Ravi Keerthi
