@@ -14,7 +14,7 @@ The system learns from student data and uses this knowledge to make predictions 
 * Compares this prediction to the score the student wants
 * Finds areas where students need to improve
 * Gives students advice on how to do
-* Shows students which things affect their grades the
+* Shows students which things affect their grades significantly
 
 # How the System Works
  A dataset of student grades is used to train the system. The data then gets ready for the system to use. Thena  machine learning model is trained on this data. After that the modelis added to a web application called Streamlit. Students can enter their information. Get predictions and analysis right away.
