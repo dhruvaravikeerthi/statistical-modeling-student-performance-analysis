@@ -17,7 +17,7 @@ The system learns from student data and uses this knowledge to make predictions 
 * Shows students which things affect their grades the
 
 # How the System Works
-We use a dataset of student grades to train the system. We get this data ready for the system to use. Then we train a machine learning model on this data. After that we add the model to a web application called Streamlit. Students can enter their information. Get predictions and analysis right away.
+ A dataset of student grades is used to train the system. The data then gets ready for the system to use. Thena  machine learning model is trained on this data. After that the modelis added to a web application called Streamlit. Students can enter their information. Get predictions and analysis right away.
 
 # Features
 * The system analyzes student grades based on their targets
